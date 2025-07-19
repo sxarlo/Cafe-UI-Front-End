@@ -647,7 +647,7 @@ main {
 
 .footer-section {
     border: 1px solid;
-    height: 50vh;
+    height: 25vh;
 }
 
 
@@ -682,8 +682,21 @@ main {
         position: absolute;
         flex-direction: column;
         border: 2px black solid;
-        right: 0px;
+        top: 90px;
+        right: 30px;
         align-items: center;
+        gap: 20px;
+        margin: 0px;
+        border-radius: 10px;
+        background-color: #b5854d;
+    }
+
+    .nav-links-container a {
+        font-size: 24px;
+    }
+
+    .nav-links-container.active {
+        display: flex;
     }
 
     .home-section {

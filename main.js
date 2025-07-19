@@ -8,3 +8,14 @@
     // Step 3: Show the clicked tab by removing the 'hidden' class
     document.getElementById(tabId).classList.remove("hidden");
   }
+
+
+
+  // Hamburger Menu Function
+
+  let hamburger = document.getElementById('hamburger');
+  let navContainer = document.getElementById('nav-links-container');
+
+  hamburger.addEventListener('click', function () {
+    navContainer.classList.toggle('active');
+  })
