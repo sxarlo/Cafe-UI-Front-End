@@ -19,3 +19,4 @@
   hamburger.addEventListener('click', function () {
     navContainer.classList.toggle('active');
   })
+
